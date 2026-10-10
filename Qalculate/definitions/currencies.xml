@@ -3331,13 +3331,8 @@
       <title xml:lang="nl">Cent (USD)</title>
       <title xml:lang="fr">Cent (USD)</title>
       <title xml:lang="es">Centavo (USD)</title>
-      <names>au:¢,r:cent,p:cents</names>
-      <names xml:lang="zh-Hant-TW">au:¢,r:cent,美分</names>
-      <names xml:lang="zh-Hans-CN">¢au:&amp;#xA2;,美分,cent</names>
-      <names xml:lang="sv">au:¢,cent</names>
-      <names xml:lang="ru">au:¢,цент,p:центы</names>
-      <names xml:lang="nl">au:¢,cent,p:centen</names>
-      <names xml:lang="fr">-</names>
+      <names>r:US_cent,p:US_cents,aou:¢,o:cent,po:cents</names>
+      <names xml:lang="zh-Hant-TW">r:US_cent,美分,aou:¢,o:cent</names>
       <base>
         <unit>USD</unit>
         <relation>1/100</relation>

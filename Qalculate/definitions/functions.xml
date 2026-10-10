@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<QALCULATE version="5.12.0">
+<QALCULATE version="5.13.0">
   <category>
     <title>Matrices &amp; Vectors</title>
     <title xml:lang="zh-Hant-TW">矩陣和向量</title>
@@ -9783,7 +9783,7 @@ Basis is the type of day counting you want to use: 0: US 30/360, 1: real days (d
 计算基准是您想使用的天数计算类型：0)美国 30/360，1)实际天数(默认值)，2)实际天数/360, 3)实际天数/365 或 4)欧洲 30/360。</description>
       <description xml:lang="sv">Returnerar antalet dagar mellan två datum.
 
-Dagsräkningssystem kan vara: 0: Amerikanskt 30/360 (förvald), 1: verkliga dagar, 2: verkliga dagar/360, 3: verkliga dagar/365, eller 4: Europeiskt 30/360</description>
+Dagsräkningssystem kan vara: 0: Amerikanskt 30/360, 1: verkliga dagar (förvald), 2: verkliga dagar/360, 3: verkliga dagar/365, eller 4: Europeiskt 30/360</description>
       <description xml:lang="ru">Возвращает количество дней (суток) между двумя датами.
 
 Система подсчёта дней - это тип подсчёта дней, который вы хотите использовать: 0: 30/360 для США, 1: реальные дни (по умолчанию), 2: реальные дни/360, 3: реальные дни/365 или 4: 30/360 для Европы.</description>
@@ -9922,6 +9922,42 @@ La basi és el tipus de compte de dies que voleu usar: 0: US 30/360, 1: dies rea
         <title xml:lang="nl">Financiële functiemodus</title>
         <title xml:lang="fr">Mode de fonctions financières</title>
         <title xml:lang="es">Modo de función financiera</title>
+      </argument>
+    </builtin_function>
+    <builtin_function name="ymd">
+      <title>Calendar years, months, and days between dates</title>
+      <title xml:lang="zh-Hant-TW">日期之間的曆法年、月、日</title>
+      <title xml:lang="sv">Kalenderår, månader och dagar mellan datum</title>
+      <names>r:ymd</names>
+      <names xml:lang="zh-Hant-TW">-</names>
+      <description>Returns a vector with the number of calendar years, months, and days (and optionally hours, minutes, and seconds) between two dates.</description>
+      <description xml:lang="zh-Hant-TW">回傳具有兩個日期之間的曆法年、月和日(以及選擇性的小時、分鐘和秒)的向量。</description>
+      <description xml:lang="sv">Returnerar en vektor med antalet kalenderår, månader och dagar (och, om valt, timmar, minuter och sekunder) melland två datum.</description>
+      <example>$name(2025-05-30, 2026-08-23) = [1  2  24]</example>
+      <argument index="1">
+        <title>First date</title>
+        <title xml:lang="zh-Hant-TW">第一個日期</title>
+        <title xml:lang="zh-Hans-CN">日期一</title>
+        <title xml:lang="sv">Första datumet</title>
+        <title xml:lang="ru">Первая дата</title>
+        <title xml:lang="nl">Eerste datum</title>
+        <title xml:lang="fr">Première date</title>
+        <title xml:lang="es">Primera fecha</title>
+      </argument>
+      <argument index="2">
+        <title>Second date</title>
+        <title xml:lang="zh-Hant-TW">第二個日期</title>
+        <title xml:lang="zh-Hans-CN">日期二</title>
+        <title xml:lang="sv">Andra datumet</title>
+        <title xml:lang="ru">Вторая дата</title>
+        <title xml:lang="nl">Tweede datum</title>
+        <title xml:lang="fr">Deuxième date</title>
+        <title xml:lang="es">Segunda fecha</title>
+      </argument>
+      <argument index="3">
+        <title>Add time</title>
+        <title xml:lang="zh-Hant-TW">加上時間</title>
+        <title xml:lang="sv">Lägg till tid</title>
       </argument>
     </builtin_function>
     <builtin_function name="week">
